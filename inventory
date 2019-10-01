@@ -1,0 +1,3 @@
+Ansible works against multiple systems in your infrastructure at the same time. It does this by selecting portions of systems listed in Ansible’s inventory, which defaults to being saved in the location /etc/ansible/hosts. You can specify a different inventory file using the -i <path> option on the command line.
+
+Not only is this inventory configurable, but you can also use multiple inventory files at the same time and pull inventory from dynamic or cloud sources or different formats (YAML, ini, etc), as described in Working With Dynamic Inventory. Introduced in version 2.4, Ansible has Inventory Plugins to make this flexible and customizable.
